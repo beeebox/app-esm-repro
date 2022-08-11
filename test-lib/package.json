@@ -1,0 +1,9 @@
+{
+  "name": "random-module-instance",
+  "type": "module",
+  "exports": {
+    "import": "./index.mjs",
+    "module": "./index.mjs",
+    "default": "./index.mjs"
+  }
+}

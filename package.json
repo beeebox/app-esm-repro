@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "devDependencies": {
+    "next": "^12.2.5-canary.4",
+    "react": "^0.0.0-experimental-17e2a15be-20220808",
+    "react-dom": "^0.0.0-experimental-17e2a15be-20220808"
+  },
+  "scripts": {
+    "setup": "cp -r ./test-lib ./node_modules/test-lib",
+    "dev": "yarn setup && next dev",
+    "build": "yarn setup && next build",
+    "start": "next start"
+  }
+}
